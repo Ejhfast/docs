@@ -264,7 +264,7 @@ Data Type
 
       For all kinds of orders, if the amount is positive, it means buying, if the amount is negative, it means selling.
 
-1. Transaction Feature
+1. Transaction Attributes
 
    |Size|Field|DataType|Description|
    |---|---|---|---|
@@ -272,9 +272,9 @@ Data Type
    |0\|1|length|uint8|length of data(Specific circumstances will be omitted)|
    |length|Data|uint8[length]|external data|
 
-   Sometimes the transaction will contain some data for external use, these data will be placed in the transaction feature field.
+   Sometimes the transaction will contain some data for external use, these data will be placed in the transaction attributes field.
 
-   Each transaction feature has different usages:
+   Each transaction attribute has different usages:
 
    |Value|Name|Description|
    |---|---|---|
