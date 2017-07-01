@@ -1,7 +1,7 @@
 # Network Protocol
 
 
-Antshares adopts a P2P network structure, in which nodes can communicate with each other through TCP/IP protocol. In this structure, there are two different types of nodes: peer node and validating node (referred to as Bookkeepers in the Antshares Whitepaper). Peer nodes can broadcast, receive and transfer transactions or blocks, while validating node can create blocks.
+Antshares adopts a P2P network structure, in which nodes can communicate with each other through TCP/IP protocol. In this structure, there are two different types of nodes: peer nodes and validating nodes (referred to as Bookkeepers in the Antshares Whitepaper). Peer nodes can broadcast, receive and transfer transactions or blocks, while validating node can create blocks.
 
 
 The network protocol of AntShares is roughly similar to bitcoin’s, however, data structures such as blocks or transactions are quite different.
