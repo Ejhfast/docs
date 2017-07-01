@@ -162,7 +162,7 @@ Data Type
 
       There is no special field for a contract transaction.
 
-  + PublishTransaction
+   + PublishTransaction
 
       > [!Warning]
       Has been deactivated and replaced by AntShares.Blockchain.CreateContract for the smart contract.
@@ -171,7 +171,7 @@ Data Type
 
       View [Alternative Smart Contract API](../sc/api/AntShares.md)
 
-  + Invoking a Transaction
+   + Invoking a Transaction
 
       | Size   | Field     | Data Type    | Description              |
       | ---- | ------ | ------- | --------------- |
