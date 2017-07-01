@@ -151,25 +151,25 @@ Data Type
 
    + RegisterTransaction
 
-    > [!Warning]
-    Has been deactived and replaced by AntShares.Blockchain.CreateAsset for the smart contract.
+      > [!Warning]
+      Has been deactived and replaced by AntShares.Blockchain.CreateAsset for the smart contract.
 
-    View [Alternative .NET Smart Contract Framework](../sc/fw/dotnet/AntShares/Blockchain/CreateAsset.md)
+      View [Alternative .NET Smart Contract Framework](../sc/fw/dotnet/AntShares/Blockchain/CreateAsset.md)
 
-    View [Alternative Smart Contract API](../sc/api/AntShares.md)
+      View [Alternative Smart Contract API](../sc/api/AntShares.md)
 
    + ContractTransaction
 
-    There is no special field for a contract transaction.
+      There is no special field for a contract transaction.
 
   + PublishTransaction
 
-    > [!Warning]
-    Has been deactivated and replaced by AntShares.Blockchain.CreateContract for the smart contract.
+      > [!Warning]
+      Has been deactivated and replaced by AntShares.Blockchain.CreateContract for the smart contract.
 
-    View [Alternative .NET Smart Contract Framework](../sc/fw/dotnet/AntShares/Blockchain/CreateContract.md)
+      View [Alternative .NET Smart Contract Framework](../sc/fw/dotnet/AntShares/Blockchain/CreateContract.md)
 
-    View [Alternative Smart Contract API](../sc/api/AntShares.md)
+      View [Alternative Smart Contract API](../sc/api/AntShares.md)
 
   + Invoking a Transaction
 
