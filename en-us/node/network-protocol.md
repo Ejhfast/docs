@@ -173,12 +173,12 @@ Data Type
 
   + Invoking a Transaction
 
-    | Size   | Field     | Data Type    | Description              |
-    | ---- | ------ | ------- | --------------- |
-    | -    | -      | -       | Public fields for transactions         |
-    | ?    | Script | uint8[] | Invoked by smart contract     |
-    | 8    | Gas    | int64   | Costs required to run the smart contract |
-    | -    | -      | -       | Publics fields for transactions         |
+      | Size   | Field     | Data Type    | Description              |
+      | ---- | ------ | ------- | --------------- |
+      | -    | -      | -       | Public fields for transactions         |
+      | ?    | Script | uint8[] | Invoked by smart contract     |
+      | 8    | Gas    | int64   | Costs required to run the smart contract |
+      | -    | -      | -       | Publics fields for transactions         |
 
 1. Transaction Attributes
 
