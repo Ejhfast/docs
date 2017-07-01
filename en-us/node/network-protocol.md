@@ -4,7 +4,7 @@
 Antshares adopts a P2P network structure, in which nodes can communicate with each other through TCP/IP protocol. In this structure, there are two different types of nodes: peer node and validating node (referred to as Bookkeepers in the Antshares Whitepaper). Peer nodes can broadcast, receive and transfer transactions or blocks, while validating node can create blocks.
 
 
-The network protocol of AntShares is roughly similar to bitcoin’s, however, data structure such as blocks or transactions is quite different.
+The network protocol of AntShares is roughly similar to bitcoin’s, however, data structures such as blocks or transactions are quite different.
 
 Convention
 ----
@@ -17,7 +17,7 @@ Convention
 
    Two different hash functions are used in Antshares: SHA256 and RIPEMD160. SHA256 is used to generate a long hash value, and RIPEMD160 is used to generate a short hash value. In general, we get an object's hash value by using hash function twice. For example, we use SHA256 twice when we want to generate block's or transaction's hash value. When generating a contract address, we will use SHA256 function first and then use RIPEMD160.
 
-   In addition, the block will also use a hash structure called Merkle Tree. It computes the hash of each transaction and combines one another then hash again, repeats this process until there is only one root hash (Merkle Root).
+   In addition, the block will also use a hash structure called a Merkle Tree. It computes the hash of each transaction and combines one another then hash again, repeats this process until there is only one root hash (Merkle Root).
 
 1. Variable Length Type
 
@@ -48,7 +48,7 @@ Data Type
 
 1. Block Chain
 
-   Block chain is a kind of logical structure, which is connected in series with a one-way linked list. It is used to store the data of the whole network, such as transactions or assets.
+   The block chain is a kind of logical structure, which is connected in series with a one-way linked list. It is used to store the data of the whole network, such as transactions or assets.
 
 1. Block
 
